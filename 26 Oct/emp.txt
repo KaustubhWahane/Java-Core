@@ -1,0 +1,3 @@
+Employee name: - Kaustubh
+Employee id: - 69
+Employee salary - 6900
