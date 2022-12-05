@@ -1,0 +1,24 @@
+                                                        SQL commands
+
+
+Data definition Language (DDL)        Data Manipulation Language        Data Control Language         Transaction Control Language          Constraints  
+create                                  Select                          Grant                           Commit                              Primary key
+alter                                   Insert                          Revoke                          Rollback                            Foreign key
+drop                                    Update                                                          Savepoint                           Check
+truncate                                Delete                                                                                              Unique
+rename                                                                                                                                      Default
+                                                                                                                                            Not Null
+
+
+
+
+
+
+
+
+
+
+
+
+
+

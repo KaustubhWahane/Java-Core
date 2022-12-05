@@ -1,0 +1,39 @@
+Check the Sql Text to refer from SQL commands
+
+How to create a Database
+First create the database name then (use) this keyword to use it
+Then create a table with using the table keyword
+Let me talk about the topic which is confusing for me
+Constraints
+Types of Constraints
+1. Not Null
+2. Default
+3. Unique
+4. Primary key
+5. Foreign key
+6. Check constraint
+
+
+If you want to copy an existing table details to another table you can use the 'AS' keyword to copy all the data
+from the existing table
+
+
+View
+A view is a database object that has no values.
+It is a virtual table that contains a subset of data within a table.
+If any changes occur in the underlying table, the same changes reflected in the views also.
+It is operated similarly to the base table but does not contain any data of its own.
+Its name is always unique.
+
+View Syntax - CREATE VIEW view_name AS  
+SELECT column_lists FROM table_name  
+WHERE condition;
+
+
+
+
+
+
+
+
+
