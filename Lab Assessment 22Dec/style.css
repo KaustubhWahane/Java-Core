@@ -1,0 +1,22 @@
+input[type = text]:focus{
+    padding: 0.2em;
+    box-shadow: 0 0 8px 0 rgb(220, 12, 12);
+}
+input[type = phone]:focus{
+    padding: 0.2em;
+    box-shadow: 0 0 8px 0 rgb(220, 12, 12);
+    }
+input[type = email]:focus{
+        padding: 0.2em;
+        box-shadow: 0 0 8px 0 rgb(220, 12, 12);
+}
+input[type = password]:focus{
+    padding: 0.2em;
+    box-shadow: 0 0 8px 0 rgb(220, 12, 12);
+    }
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),url(ThankYou.jpeg));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
