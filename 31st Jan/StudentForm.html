@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentForm</title>
+</head>
+<body>
+    <form action="Details.html" method="get">
+        <div>
+        <label>CollegeName</label>
+        <input name="name" type="text" placeholder="CollegeName" required>
+    </div>
+    <div>
+        <label>StudentName</label>
+        <input name="name" type="text" placeholder="Student's name" required>
+    </div>
+    <div>
+        <label>StudentId</label>
+        <input type="text" placeholder="Id">
+    </div>
+    <div>
+        <label>Age</label>
+        <input type="number" placeholder="age" id="age" name="age" min="1" max="69" step="5">
+    </div>
+    <div>
+        <label>Birthdate</label>
+        <input type="date" placeholder="Birthdate" name="date" id="date">
+    </div>
+    <div>
+        <label>StudentGroup</label>
+        <input type="text" placeholder="Group">
+    </div>
+    <div class="fees">
+        <p>FeesPaid</p>
+        <label>Yes</label>
+        <input type="radio" id="yes">
+        <label>No</label>
+        <input type="radio" id="no">
+    </div>
+    <div>
+        <label for="file">File</label>
+        <input id="file" type="file" name="file">
+    </div>
+    <div class="submit">
+        <button>Submit</button>
+    </div>
+    </form>
+</body>
+</html>
